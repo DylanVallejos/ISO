@@ -1,0 +1,58 @@
+1. Editor de textos:
+
+(a) Nombre al menos 3 editores de texto que puede utilizar desde la línea de comandos.
+
+	Nano: Nano es un editor de texto simple y fácil de usar que viene preinstalado en muchas distribuciones de Linux. Se utiliza para realizar ediciones básicas en archivos de texto directamente desde la línea de comandos.
+
+Vim: Vim es un editor de texto avanzado que ofrece una amplia gama de funciones y capacidades. Aunque tiene una curva de aprendizaje más pronunciada, una vez que dominas sus comandos, puede ser muy eficiente. Vim se puede utilizar en modo de línea de comandos y ofrece modos de edición y navegación distintos.
+
+Emacs: Emacs es otro editor de texto altamente personalizable y poderoso. Al igual que Vim, tiene una curva de aprendizaje empinada, pero una vez que te familiarices con sus comandos, puede ser extremadamente versátil y potente. También se puede utilizar desde la línea de comandos.
+
+(b) ¿En qué se diferencia un editor de texto de los comandos cat, more o less? Enumere
+los modos de operación que posee el editor de textos vi.
+
+Editor de texto (por ejemplo, vi, nano, emacs):
+
+Los editores de texto permiten crear, editar y guardar archivos de texto.
+Proporcionan una interfaz interactiva para realizar cambios en el contenido del archivo.
+
+Pueden tener múltiples modos de operación, como modo de inserción y modo de comandos, que permiten realizar diversas acciones de edición.
+
+Son más adecuados para realizar cambios significativos en el contenido de los archivos y guardarlos.
+
+Comando "cat":
+"cat" se utiliza para mostrar el contenido completo de un archivo de texto en la salida estándar (generalmente en la terminal).
+
+No es interactivo; simplemente muestra el contenido del archivo en una sola secuencia continua.
+
+No permite realizar cambios en el contenido del archivo ni navegar por él de manera interactiva.
+
+Comando "more":
+"more" permite mostrar el contenido de un archivo página por página.
+
+Puedes navegar hacia adelante o hacia atrás por el archivo utilizando las teclas de flecha o las teclas de comando.
+
+Es un visor de texto paginado, pero no ofrece capacidades de edición.
+
+Comando "less":
+
+Similar a "more", "less" también permite ver el contenido de un archivo página por página.
+
+Ofrece más flexibilidad, ya que permite navegar hacia adelante y hacia atrás, así como buscar términos en el archivo.
+
+Aunque no es un editor, "less" es más interactivo que "more".
+
+Modos de operación en el editor de texto vi:
+El editor de texto vi tiene varios modos de operación que permiten realizar diferentes acciones. Los principales modos son:
+
+Modo Normal: En este modo, las teclas ingresadas son interpretadas como comandos para moverse por el archivo, realizar búsquedas, eliminar texto, copiar, pegar, etc.
+
+Modo de Inserción: En este modo, puedes ingresar y editar el texto de manera similar a otros editores de texto. Para entrar en este modo desde el Modo Normal, generalmente se presiona la tecla "i" o "a".
+
+Modo de Comando: Desde el Modo Normal, se puede entrar en el Modo de Comando presionando ":". Aquí puedes ejecutar comandos específicos, como guardar cambios, buscar y reemplazar, salir del editor, entre otros.
+
+Modo Visual: Este modo permite seleccionar texto de manera visual para copiar, cortar o realizar otras acciones en él.
+
+Modo de Comando Ex: Este modo se activa desde el Modo Normal ingresando ":". Permite realizar tareas más avanzadas, como guardar, salir, buscar y reemplazar en múltiples líneas, etc.
+
+Cada uno de estos modos en vi tiene su propio propósito y conjunto de comandos asociados para realizar tareas específicas.
